@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./validation.css">
+</head>
+<body >
+
+    <div style="background-color:rgb(241, 244, 247);padding-bottom: 180px;"><br>
+
+<center>
+
+  <br><br>
+  
+   <div style="font-size:35px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:rgb(103, 3, 108); margin-bottom: 0px;"> Form validation</div>
+   <br> 
+   <div class="f">
+    <br><br>
+    <form onsubmit="return validation()">
+
+    <div id="errorusername"  style="color: red;"></div>
+
+    <label for="username" style="font-size:20px "> Email</label><br>
+    <input id="username" type="text"><br><br><br>
+
+    
+    <div id="errorphone"  style="color: red;"></div>
+
+    <label for="phone" style="font-size: 20px;"> Phone number</label><br>
+    
+    <input id="phone" type="text"><br><br><br>
+
+    <div id="errorpassword"  style="color: red;"></div>
+
+    <label for="password"style="font-size: 20px;">password</label><br>
+    
+    <input id="password" type="password"><br><br><br>
+
+    <div id="errorrpassword"  style="color: red;"></div>
+
+    <label for="rpassword"style="font-size: 20px;"> confirm password</label><br>
+    
+    <input id="rpassword" type="password"><br><br><br>
+
+    <input type="submit" id="button" value="Registration" >
+    </form>
+   </center>
+    </div>
+    
+</div>
+    
+   
+    
+
+
+
+    <script src="./validation.js"></script>
+</body>
+</html>
